@@ -39,6 +39,7 @@ fetch('./datanot.json')
                 let itemLi = document.createElement('li');
                 
                 itemLi.innerHTML = names[p].items[b]
+                itemLi.style.color = "black";
                 itmeUl.appendChild(itemLi)
                 
               }
